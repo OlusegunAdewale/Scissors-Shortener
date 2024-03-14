@@ -1,0 +1,118 @@
+#loginForm {
+    width: 100%;
+    height: 100vh;
+    padding: 5rem 10% 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Login_con {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  }
+  
+  .LoginWith {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .LoginWith small {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 60px;
+  }
+  
+  .Loding_btn button {
+    width: 150px;
+    height: 40px;
+    margin: 0 10px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #fff;
+    background: #005ae2;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  
+  .buttonWithImageAndText img{
+      margin: 0 10px;
+  }
+  
+  .login_line {
+    display: flex;
+    align-items: center;
+  }
+  
+  .line {
+    width: 150px;
+    height: 0.4px;
+    background: #5c6f7f;
+  }
+  
+  .lineOr {
+    padding: 0 10px;
+    color: #5c6f7f;
+  }
+  
+  
+  #loginForm form input{
+    width: 100%;
+    height: 3rem;
+    margin: 15px 0;
+    padding: 1rem;
+    border: 3px solid #005ae2;
+    border-radius: 5px;
+    outline: #005ae2;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  #loginForm form input::placeholder{
+    text-transform: capitalize;
+  }
+  
+  #loginForm form button{
+      width: 100%;
+      height: 3rem;
+      margin: 2rem 0;
+      font-size: 1rem;
+      font-weight: 400;
+      background: #005ae2;
+      border-radius: 50px;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+  }
+  
+  
+  .signUp p{
+      text-align: center;
+      font-size: 1rem;
+      font-weight: 400;
+      color: #5c6f7f;
+      margin-bottom: 1.4rem;
+  }
+  
+  .signupTerms article{
+      text-align: center;
+      font-size: 400;
+      font-weight: 400;
+      line-height: 30px;
+      color: #5c6f7f;
+  }
+  
+  .signupTerms article strong{
+      font-weight: 550;
+  }
+  
