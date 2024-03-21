@@ -21,7 +21,7 @@ export default function HeroForm() {
       .shortenLink({
         domain: "bit.ly",
         long_url: longURL!,
-        group_guid: "o_4s940fcbn2",
+        group_guid: import.meta.env.VITE_BITLY_GROUP_ID as string,
       })
       .then(async ({ data }) => {
         setShortUrl(data.link);

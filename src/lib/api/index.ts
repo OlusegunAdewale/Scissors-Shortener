@@ -15,7 +15,7 @@ export default class Api {
     const axiosInstance = axios.create({
       baseURL: "https://api-ssl.bitly.com/v4/",
       headers: {
-        Authorization: `Bearer $  {import.meta.env.VITE_BITLY_API_KEY}`,
+        Authorization: "Bearer" + import.meta.env.VITE_BITLY_API_KEY,
       },
     });
 
